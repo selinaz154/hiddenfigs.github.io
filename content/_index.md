@@ -1,5 +1,5 @@
 ---
-title: Amplify Colorado
+title: Hidden Figs
 description: A resource for Colorado journalists to improve representation and
   diversify perspectives in their coverage.
 title-tag: Amplify Colorado - COLab

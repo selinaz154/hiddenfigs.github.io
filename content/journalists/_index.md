@@ -1,6 +1,6 @@
 +++
-title = "Journalists"
+title = "Scientists"
 
 [cascade]
-person-type = "journalist"
+person-type = "scientists"
 +++

@@ -1,4 +1,4 @@
 +++
-title = "Journalists listed by coverage area"
-linktitle = "Coverage area"
+title = "Scientists listed by time period"
+linktitle = "Time period"
 +++
