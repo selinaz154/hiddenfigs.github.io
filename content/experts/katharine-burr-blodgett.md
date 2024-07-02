@@ -6,7 +6,7 @@
   "layout": "person",
   "resume": "",
   "phone": "",
-  "first": "Katherine"",
+  "first": "Katharine",
   "Course Relevance": [
     "Astronomy",
     "Galactic Astronomy",
@@ -29,5 +29,5 @@
   "Biography Slide": "",
   "Research Slide": "YXNzaXN0aW5nbWluZGZ1bGFydGlzdEBnbWFpbC5jb20=",
   "Wikipedia Link": "https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt",
-  "linktitle": "Henrietta \"Swan\" Leavitt"
+  "linktitle": "Katharine \"Burr\" Blodgett"
 }
