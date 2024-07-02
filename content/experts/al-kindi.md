@@ -6,7 +6,7 @@
   "layout": "person",
   "resume": "",
   "phone": "",
-  "first": "Al-kindi"",
+  "first": "Al-kindi",
   "Course Relevance": [
     "Astronomy",
     "Galactic Astronomy",

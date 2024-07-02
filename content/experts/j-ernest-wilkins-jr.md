@@ -6,7 +6,7 @@
   "layout": "person",
   "resume": "",
   "phone": "",
-  "first": "Ernest"",
+  "first": "Ernest",
   "Course Relevance": [
     "Astronomy",
     "Galactic Astronomy",

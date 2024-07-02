@@ -6,7 +6,7 @@
   "layout": "person",
   "resume": "",
   "phone": "",
-  "first": "Robert A."",
+  "first": "Robert A.",
   "Course Relevance": [
     "Modern Physics",
     "Electricity and Magnetism"
