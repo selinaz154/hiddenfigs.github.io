@@ -3,7 +3,7 @@
   "honorific": "",
   "pronoun": "",
   "bio": "established the technique for measuring stellar distances that was used to prove the Milky Way wasn’t the entire universe.", 
-  "layout": "person",
+  "layout": "scientist",
   "resume": "",
   "phone": "",
   "first": "Henrietta",
