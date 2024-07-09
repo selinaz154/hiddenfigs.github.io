@@ -14,7 +14,7 @@
   ],
   "education": "Graduate of Radcliffe College (B.S. 1892)",
   "life_span": "1868-1921",
-  "Research Areas": [
+  "research_areas": [
     "Observational Astronomy",
     "Variable Stars",
     "Novae"
