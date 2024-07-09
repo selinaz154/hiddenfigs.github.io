@@ -15,24 +15,24 @@
           {{ end }}
         {{ end }}
       </h1>
-      {{ with .Param "organization" }}
+      {{ with .Param "education" }}
         <h2
           class="break-word  text-lg leading-tight text-gray"
-          data-pagefind-meta="organization"
+          data-pagefind-meta="education"
         >
           {{ . }}
         </h2>
       {{ end }}
-      {{ with .Param "role" }}
+      {{ with .Param "life_span" }}
         <h2
           class="break-word text-lg leading-tight text-g-6"
-          data-pagefind-meta="role"
+          data-pagefind-meta="life span"
         >
           {{ . }}
         </h2>
       {{ end }}
       <div class="links-blue-darker mt-2 text-sm sm:flex sm:flex-wrap">
-        {{ if .GetTerms "location" }}
+        {{ if .GetTerms "course_relavance" }}
           <p class="sm:w-1/2">
             <span class="mr-5 text-g-6">
               <svg class="inline-block h-4 w-4 fill-current align-text-bottom">
@@ -41,31 +41,31 @@
               </svg>
             </span>
             <span>
-              {{ range $i, $l := .GetTerms "location" }}
+              {{ range $i, $l := .GetTerms "course_relavance" }}
                 {{- if ne $i 0 -}}
                   ,
                 {{ end -}}
-                <a href="{{ .RelPermalink }}" data-pagefind-filter="location">
+                <a href="{{ .RelPermalink }}" data-pagefind-filter="course relavance">
                   {{- .Title -}}
                 </a>
               {{- end }}
             </span>
           </p>
         {{ end }}
-        {{ if .GetTerms "area" }}
+        {{ if .GetTerms "research_areas" }}
           <p class="sm:w-1/2">
             <span class="mr-5 text-g-6">
               <svg class="inline-block h-4 w-4 fill-current align-text-bottom">
-                <title>Coverage area</title>
+                <title>research area</title>
                 <use xlink:href="#earth-svg"></use>
               </svg>
             </span>
             <span>
-              {{ range $i, $l := .GetTerms "area" }}
+              {{ range $i, $l := .GetTerms "research_areas" }}
                 {{- if ne $i 0 -}}
                   ,
                 {{ end -}}
-                <a href="{{ .RelPermalink }}" data-pagefind-filter="area">
+                <a href="{{ .RelPermalink }}" data-pagefind-filter="research areas">
                   {{- .Title -}}
                 </a>
               {{- end }}
@@ -213,7 +213,7 @@
           </p>
         {{ end }}
 
-        {{ with .Param "linkedin" }}
+        {{ with .Param "wikipedia_link" }}
           <p class="sm:w-1/2">
             <span class="mr-5 text-g-6">
               <svg class="inline-block h-4 w-4 fill-current align-text-bottom">
@@ -222,7 +222,7 @@
               </svg>
             </span>
             <a href="{{ . }}" target="_blank">
-              {{- "LinkedIn" -}}
+              {{- "Wikipedia Link" -}}
             </a>
           </p>
         {{ end }}
@@ -336,6 +336,6 @@
     {{- .LinkTitle -}}
   </div>
   <div hidden data-pagefind-filter="type">
-    {{- .Param "person-type" -}}
+    {{- .Param "scientist-type" -}}
   </div>
 {{ end }}
