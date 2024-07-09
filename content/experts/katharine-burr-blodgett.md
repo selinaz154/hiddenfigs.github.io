@@ -3,7 +3,7 @@
   "honorific": "",
   "pronoun": "She/He/E",
   "bio": "Biography! ", 
-  "layout": "person",
+  "layout": "scientist",
   "resume": "",
   "phone": "",
   "first": "Katharine",
