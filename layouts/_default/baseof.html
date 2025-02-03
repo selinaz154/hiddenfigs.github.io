@@ -138,5 +138,23 @@
     </script>
 
     {{ block "extra-footer" . }}{{ end }}
+
+
+    
+
+    
+
+      <div id="popupForm" class="popup-overlay" style="display:none;">
+        <div class="popup-content">
+            <span class="close-button">×</span>
+            <h2>Enter Your Information</h2>
+            <form id="userInfo">
+                Name: <input type="text" name="name" required><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="/js/popup.js" type="module"></script>
   </body>
+
 </html>
